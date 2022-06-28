@@ -1,0 +1,20 @@
+.link {
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    display: inline-block;
+}
+
+a:link {
+    color: grey;
+}
+
+a:visited {
+    color: grey;
+}
+
+a:hover {
+    color: darkgray;
+}

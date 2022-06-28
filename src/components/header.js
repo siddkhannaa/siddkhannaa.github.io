@@ -1,5 +1,0 @@
-header = () => {
-
-}
-
-export default header;
