@@ -1,5 +1,6 @@
 import React from 'react';
 
+import { TopBar } from './components/TopBar';
 import { Header } from './components/Header';
 import { Links } from './components/Links'; 
 import './App.css';
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <div>
+      <TopBar />
       <Header />
       <Links />
     </div>
