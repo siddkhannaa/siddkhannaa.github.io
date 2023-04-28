@@ -1,0 +1,126 @@
+a:visited {
+    color:rgb(50, 50, 50)
+}
+
+/* hero */
+.hero {
+    color: antiquewhite;
+    padding: 10rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.hero .cta {
+    background-color: antiquewhite;
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero .cta:hover {
+    background-color: rgb(50, 50, 50);
+    color: antiquewhite;
+}
+
+/* About */
+.about {
+    color: antiquewhite;
+    padding: 5rem 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.about p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+/* Portfolio */
+.portfolio {
+    color: antiquewhite;
+    padding: 5rem 0;
+}
+
+.portfolio h2 {
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.portfolio-items {
+    display: grid;
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+
+    background-color: rgb(50, 50, 50);
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    background-color: rgb(50, 50, 50);
+    border-radius: 20px;
+    padding: 20px;
+    flex-basis: 30%;
+}
+
+.portfolio-item img {
+    width: 100%;
+}
+
+.portfolio-item-info {
+    padding: 1rem;
+    text-align: center;
+    margin-top: -1rem;
+}
+
+.portfolio-item-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.portfolio-item-info p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.cta {
+    background-color: antiquewhite;
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta:hover {
+    background-color: rgb(50, 50, 50);
+    color: antiquewhite;
+}

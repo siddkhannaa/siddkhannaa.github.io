@@ -1,8 +1,10 @@
 import React from 'react';
 
-import { TopBar } from './components/TopBar';
-import { Header } from './components/Header';
+import { NavBar } from './components/NavBar';
+import { Home } from './components/Home';
 import { Links } from './components/Links'; 
+import { Footer } from './components/Footer';
+
 import './App.css';
 
 function App() {
@@ -12,9 +14,9 @@ function App() {
 
   return (
     <div>
-      <TopBar />
-      <Header />
-      <Links />
+      <NavBar />
+      <Home />
+      <Footer />
     </div>
   );
 }
