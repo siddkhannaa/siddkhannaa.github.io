@@ -57,6 +57,7 @@ export const Home = () => {
                             </div>
                         </div>
                     </div>
+                <p className="under-portfolio">see my <a href="https://github.com/siddkhannaa">github</a> and my <a href="https://drive.google.com/file/d/1Btyl_VeDa4vPMDWTo7EsJ8w5KB1QqyFc/view?usp=share_link">resume</a> for more of my projects and experience.</p>
                 </div>
             </section>
         </div>
