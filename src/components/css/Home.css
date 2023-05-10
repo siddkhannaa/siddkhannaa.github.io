@@ -82,6 +82,7 @@ a:visited {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    border-radius: 10px;
 }
 
 .portfolio-item {
@@ -93,12 +94,14 @@ a:visited {
 
 .portfolio-item img {
     width: 100%;
+    border-radius: 5px;
 }
 
 .portfolio-item-info {
     padding: 1rem;
     text-align: center;
     margin-top: -1rem;
+    border-radius: 15px;
 }
 
 .portfolio-item-info h3 {
